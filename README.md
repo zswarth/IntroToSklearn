@@ -2,5 +2,7 @@ Title
 ========
 
 Run this code
-	$ pip install -r requirements.txt
+```
+$ pip install -r requirements.txt
+```
 
