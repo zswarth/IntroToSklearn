@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+	<h1> {{Title}} </h1>
+	<p> {{Description}}  </p>
+	<Form method="GET" action="/predict">
+		Topic:<input name = "topic" type="text"></input><br>
+		Tweet:<input name = "tweet" type="text"></input><br>
+		<input type="submit"></input><br>
+	</form>
+
+	<h3>{{result}}</h3>
+
+	<a href = "/training_size"> Demo 1 </a> <br>
+	<a href = "/tweet_topic"> Demo 2 </a> <br>
+	<a href = "/predict"> Demo 3 </a> <br>
+</body>
+</html>

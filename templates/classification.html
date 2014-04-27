@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script src="{{url_for('static', filename='Chart.js')}}"></script>
+</head>
+<body>
+	<script>
+		var graph_labels = {{graph_labels|safe}};
+		var precision_scores = [{{",".join(precision_scores)}}];
+		var recall_scores = [{{",".join(recall_scores)}}];
+		var f1_scores = [{{",".join(f1_scores)}}];
+	</script>
+	
+
+	<h1> {{Title}} </h1>
+	<p> {{Description}}  </p>
+	<canvas id="chart" width="600" height="600"></canvas>
+
+	<a href = "/training_size"> Demo 1 </a> <br>
+	<a href = "/tweet_topic"> Demo 2 </a> <br>
+	<a href = "/predict"> Demo 3 </a> <br>
+</body>
+<footer>
+	<script src="{{url_for('static', filename='barchart.js')}}"></script>
+</footer>
+</html>
