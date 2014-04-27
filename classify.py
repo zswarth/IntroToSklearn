@@ -16,9 +16,6 @@ class BinaryPredictor(object):
 		self.test_X, self.test_Y = self.pre_process(test)
 
 
-###What is 'cv'
-##### still dont' get 'clf' completely
-
 
 	def pre_process(self, text):
 		if not self.cv:
