@@ -1,0 +1,6 @@
+env
+env/*
+.dropbox
+*.pyc
+.DS_Store
+*Icon*
