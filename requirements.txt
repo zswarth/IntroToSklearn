@@ -1,0 +1,16 @@
+Flask==0.10.1
+Jinja2==2.7.2
+MarkupSafe==0.21
+TweetPony==1.2.11
+Werkzeug==0.9.4
+ipdb==0.8
+ipython==1.2.1
+itsdangerous==0.24
+meta==-
+numpy==1.8.0
+patterns==0.1.2
+readline==6.2.4.1
+requests==2.2.1
+scikit-learn==0.14.1
+scipy==0.13.3
+wsgiref==0.1.2
