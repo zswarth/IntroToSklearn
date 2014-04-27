@@ -8,7 +8,7 @@ There are three data pages produced
 3) Predict whether a sentence belongs in a topic  
 
 
-Run this code
+To run this code
 ```
 $ pip install -r requirements.txt  
 
