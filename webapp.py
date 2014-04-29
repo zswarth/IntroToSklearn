@@ -48,9 +48,9 @@ def predict_word():
         clf.train()
         result = clf.predict([request.args.get("tweet")])
         if result[0] == True:
-            result = "This is a tweet about %s" %(request.args.get("topic"))
+            result = "This is a sentence about %s" %(request.args.get("topic"))
         else:
-            result = "This is not a tweet about %s" %(request.args.get("topic"))
+            result = "This is not a sentence about %s" %(request.args.get("topic"))
     else:
         result = ""
 
