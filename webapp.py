@@ -42,7 +42,7 @@ def tweet_topic():
 def predict_word():
     a = TopicAnalyzer()
     Title = "Interactive Perceptron Classifcation"
-    Description = "Choose a topic.  Enter a string to test if it belongs in topic.  Training size is 300 tweets"
+    Description = "Choose a topic.  Enter a sentence to test if it belongs in topic.  Training size is 300 tweets"
     if request.args.get("topic"):
         clf = a.binary_topic(request.args.get("topic"), n_tweets = 300)
         clf.train()
