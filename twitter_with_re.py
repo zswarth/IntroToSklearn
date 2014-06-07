@@ -3,10 +3,10 @@ import re
 
 class Twitter(object):
 
-  access_token = '2376312126-YUCVGSOYgP9kQJNx46AOwIRCVddKUPpcf7fDkJH'
-  access_token_secret = '8ugXhMtCYq0IHP5KAzM16xoiMvXkXIpWtTWvk52V9QCbS'
-  consumer_key = '7gNH5uIskTOTACpCOKgbw'
-  consumer_secret = '4wiDP0muI5Krudzt8cVT30w1QKqMKjqjLGYTobbKY'
+  access_token = xx'
+  access_token_secret = 'xx'
+  consumer_key = 'xx'
+  consumer_secret = 'xx'
 
   def __init__(self):
     self.reset_auth_token()
